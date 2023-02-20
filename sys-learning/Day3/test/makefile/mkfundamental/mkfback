@@ -1,0 +1,2 @@
+a.out:hello.c add.c sub.c div1.c
+	gcc hello.c add.c sub.c div1.c -o a.out
