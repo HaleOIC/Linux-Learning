@@ -1,3 +1,0 @@
-/home/hale/Desktop/Linux-Learning/cmake-learning/myDemo2/CMakeFiles/edit_cache.dir
-/home/hale/Desktop/Linux-Learning/cmake-learning/myDemo2/CMakeFiles/rebuild_cache.dir
-/home/hale/Desktop/Linux-Learning/cmake-learning/myDemo2/CMakeFiles/Demo.dir
