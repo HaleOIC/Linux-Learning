@@ -1,9 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <config.h>
+#include "config.h"
+
+// by checking the `USE_MYMATH` variable to determine
+// whether to use the provided math implementation or standard
 
 #ifdef USE_MYMATH
-  #include <MathFunctions.h>
+  #include "math/MathFunctions.h"
 #else
   #include <math.h>
 #endif

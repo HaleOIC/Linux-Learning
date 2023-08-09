@@ -1,4 +1,4 @@
-# Install script for directory: /home/hale/Desktop/Linux-Learning/cmake-learning/Demo2
+# Install script for directory: /home/hale/Desktop/Linux-Learning/cmake-learning/Introduction/Demo2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/hale/Desktop/Linux-Learning/cmake-learning/Demo2/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/hale/Desktop/Linux-Learning/cmake-learning/Introduction/Demo2/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

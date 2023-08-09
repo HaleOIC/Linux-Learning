@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <config.h>
+#include "config.h"
 
 #ifdef HAVE_POW
   #include <math.h>
 #else
-  #include <MathFunctions.h>
+  #include "math/MathFunctions.h"
 #endif
 
 int main(int argc, char *argv[])

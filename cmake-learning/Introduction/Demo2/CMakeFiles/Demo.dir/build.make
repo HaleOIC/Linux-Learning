@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hale/Desktop/Linux-Learning/cmake-learning/Demo2
+CMAKE_SOURCE_DIR = /home/hale/Desktop/Linux-Learning/cmake-learning/Introduction/Demo2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hale/Desktop/Linux-Learning/cmake-learning/Demo2
+CMAKE_BINARY_DIR = /home/hale/Desktop/Linux-Learning/cmake-learning/Introduction/Demo2
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Demo.dir/depend.make
@@ -72,30 +72,30 @@ include CMakeFiles/Demo.dir/flags.make
 CMakeFiles/Demo.dir/MathFunctions.cc.o: CMakeFiles/Demo.dir/flags.make
 CMakeFiles/Demo.dir/MathFunctions.cc.o: MathFunctions.cc
 CMakeFiles/Demo.dir/MathFunctions.cc.o: CMakeFiles/Demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hale/Desktop/Linux-Learning/cmake-learning/Demo2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Demo.dir/MathFunctions.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Demo.dir/MathFunctions.cc.o -MF CMakeFiles/Demo.dir/MathFunctions.cc.o.d -o CMakeFiles/Demo.dir/MathFunctions.cc.o -c /home/hale/Desktop/Linux-Learning/cmake-learning/Demo2/MathFunctions.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hale/Desktop/Linux-Learning/cmake-learning/Introduction/Demo2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Demo.dir/MathFunctions.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Demo.dir/MathFunctions.cc.o -MF CMakeFiles/Demo.dir/MathFunctions.cc.o.d -o CMakeFiles/Demo.dir/MathFunctions.cc.o -c /home/hale/Desktop/Linux-Learning/cmake-learning/Introduction/Demo2/MathFunctions.cc
 
 CMakeFiles/Demo.dir/MathFunctions.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Demo.dir/MathFunctions.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hale/Desktop/Linux-Learning/cmake-learning/Demo2/MathFunctions.cc > CMakeFiles/Demo.dir/MathFunctions.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hale/Desktop/Linux-Learning/cmake-learning/Introduction/Demo2/MathFunctions.cc > CMakeFiles/Demo.dir/MathFunctions.cc.i
 
 CMakeFiles/Demo.dir/MathFunctions.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Demo.dir/MathFunctions.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hale/Desktop/Linux-Learning/cmake-learning/Demo2/MathFunctions.cc -o CMakeFiles/Demo.dir/MathFunctions.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hale/Desktop/Linux-Learning/cmake-learning/Introduction/Demo2/MathFunctions.cc -o CMakeFiles/Demo.dir/MathFunctions.cc.s
 
 CMakeFiles/Demo.dir/main.cc.o: CMakeFiles/Demo.dir/flags.make
 CMakeFiles/Demo.dir/main.cc.o: main.cc
 CMakeFiles/Demo.dir/main.cc.o: CMakeFiles/Demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hale/Desktop/Linux-Learning/cmake-learning/Demo2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Demo.dir/main.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Demo.dir/main.cc.o -MF CMakeFiles/Demo.dir/main.cc.o.d -o CMakeFiles/Demo.dir/main.cc.o -c /home/hale/Desktop/Linux-Learning/cmake-learning/Demo2/main.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hale/Desktop/Linux-Learning/cmake-learning/Introduction/Demo2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Demo.dir/main.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Demo.dir/main.cc.o -MF CMakeFiles/Demo.dir/main.cc.o.d -o CMakeFiles/Demo.dir/main.cc.o -c /home/hale/Desktop/Linux-Learning/cmake-learning/Introduction/Demo2/main.cc
 
 CMakeFiles/Demo.dir/main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Demo.dir/main.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hale/Desktop/Linux-Learning/cmake-learning/Demo2/main.cc > CMakeFiles/Demo.dir/main.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hale/Desktop/Linux-Learning/cmake-learning/Introduction/Demo2/main.cc > CMakeFiles/Demo.dir/main.cc.i
 
 CMakeFiles/Demo.dir/main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Demo.dir/main.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hale/Desktop/Linux-Learning/cmake-learning/Demo2/main.cc -o CMakeFiles/Demo.dir/main.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hale/Desktop/Linux-Learning/cmake-learning/Introduction/Demo2/main.cc -o CMakeFiles/Demo.dir/main.cc.s
 
 # Object files for target Demo
 Demo_OBJECTS = \
@@ -109,7 +109,7 @@ Demo: CMakeFiles/Demo.dir/MathFunctions.cc.o
 Demo: CMakeFiles/Demo.dir/main.cc.o
 Demo: CMakeFiles/Demo.dir/build.make
 Demo: CMakeFiles/Demo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hale/Desktop/Linux-Learning/cmake-learning/Demo2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hale/Desktop/Linux-Learning/cmake-learning/Introduction/Demo2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Demo"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Demo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -121,6 +121,6 @@ CMakeFiles/Demo.dir/clean:
 .PHONY : CMakeFiles/Demo.dir/clean
 
 CMakeFiles/Demo.dir/depend:
-	cd /home/hale/Desktop/Linux-Learning/cmake-learning/Demo2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hale/Desktop/Linux-Learning/cmake-learning/Demo2 /home/hale/Desktop/Linux-Learning/cmake-learning/Demo2 /home/hale/Desktop/Linux-Learning/cmake-learning/Demo2 /home/hale/Desktop/Linux-Learning/cmake-learning/Demo2 /home/hale/Desktop/Linux-Learning/cmake-learning/Demo2/CMakeFiles/Demo.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hale/Desktop/Linux-Learning/cmake-learning/Introduction/Demo2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hale/Desktop/Linux-Learning/cmake-learning/Introduction/Demo2 /home/hale/Desktop/Linux-Learning/cmake-learning/Introduction/Demo2 /home/hale/Desktop/Linux-Learning/cmake-learning/Introduction/Demo2 /home/hale/Desktop/Linux-Learning/cmake-learning/Introduction/Demo2 /home/hale/Desktop/Linux-Learning/cmake-learning/Introduction/Demo2/CMakeFiles/Demo.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Demo.dir/depend
 

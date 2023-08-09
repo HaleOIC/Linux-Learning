@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/hale/Desktop/Linux-Learning/cmake-learning/Demo2/MathFunctions.cc" "CMakeFiles/Demo.dir/MathFunctions.cc.o" "gcc" "CMakeFiles/Demo.dir/MathFunctions.cc.o.d"
-  "/home/hale/Desktop/Linux-Learning/cmake-learning/Demo2/main.cc" "CMakeFiles/Demo.dir/main.cc.o" "gcc" "CMakeFiles/Demo.dir/main.cc.o.d"
+  "/home/hale/Desktop/Linux-Learning/cmake-learning/Introduction/Demo2/MathFunctions.cc" "CMakeFiles/Demo.dir/MathFunctions.cc.o" "gcc" "CMakeFiles/Demo.dir/MathFunctions.cc.o.d"
+  "/home/hale/Desktop/Linux-Learning/cmake-learning/Introduction/Demo2/main.cc" "CMakeFiles/Demo.dir/main.cc.o" "gcc" "CMakeFiles/Demo.dir/main.cc.o.d"
   )
 
 # Targets to which this target links.

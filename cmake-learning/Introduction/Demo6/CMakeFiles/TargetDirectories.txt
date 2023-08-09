@@ -1,0 +1,16 @@
+/home/hale/Desktop/Linux-Learning/cmake-learning/Introduction/Demo6/CMakeFiles/Demo.dir
+/home/hale/Desktop/Linux-Learning/cmake-learning/Introduction/Demo6/CMakeFiles/test.dir
+/home/hale/Desktop/Linux-Learning/cmake-learning/Introduction/Demo6/CMakeFiles/edit_cache.dir
+/home/hale/Desktop/Linux-Learning/cmake-learning/Introduction/Demo6/CMakeFiles/rebuild_cache.dir
+/home/hale/Desktop/Linux-Learning/cmake-learning/Introduction/Demo6/CMakeFiles/list_install_components.dir
+/home/hale/Desktop/Linux-Learning/cmake-learning/Introduction/Demo6/CMakeFiles/install.dir
+/home/hale/Desktop/Linux-Learning/cmake-learning/Introduction/Demo6/CMakeFiles/install/local.dir
+/home/hale/Desktop/Linux-Learning/cmake-learning/Introduction/Demo6/CMakeFiles/install/strip.dir
+/home/hale/Desktop/Linux-Learning/cmake-learning/Introduction/Demo6/math/CMakeFiles/MathFunctions.dir
+/home/hale/Desktop/Linux-Learning/cmake-learning/Introduction/Demo6/math/CMakeFiles/test.dir
+/home/hale/Desktop/Linux-Learning/cmake-learning/Introduction/Demo6/math/CMakeFiles/edit_cache.dir
+/home/hale/Desktop/Linux-Learning/cmake-learning/Introduction/Demo6/math/CMakeFiles/rebuild_cache.dir
+/home/hale/Desktop/Linux-Learning/cmake-learning/Introduction/Demo6/math/CMakeFiles/list_install_components.dir
+/home/hale/Desktop/Linux-Learning/cmake-learning/Introduction/Demo6/math/CMakeFiles/install.dir
+/home/hale/Desktop/Linux-Learning/cmake-learning/Introduction/Demo6/math/CMakeFiles/install/local.dir
+/home/hale/Desktop/Linux-Learning/cmake-learning/Introduction/Demo6/math/CMakeFiles/install/strip.dir

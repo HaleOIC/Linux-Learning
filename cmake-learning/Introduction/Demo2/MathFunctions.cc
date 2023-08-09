@@ -8,17 +8,16 @@
  *
  * @return base raised to the power exponent.
  */
-double power(double base, int exponent)
-{
-    double result = base;
-    int i;
-
-    if (exponent == 0) {
-        return 1;
-    }
+double power(double base, int exponent){
     
-    for(i = 1; i < exponent; ++i){
-        result = result * base;
+    double result = 1.0;
+
+    while (exponent > 0) {
+        if (exponent % 2 == 1) {
+            result = result * base;
+        }
+        base = base * base;
+        exponent >>= 1;
     }
 
     return result;

@@ -1,0 +1,3 @@
+/home/hale/Desktop/Linux-Learning/cmake-learning/Introduction/Demo3/math/CMakeFiles/MathFunctions.dir
+/home/hale/Desktop/Linux-Learning/cmake-learning/Introduction/Demo3/math/CMakeFiles/edit_cache.dir
+/home/hale/Desktop/Linux-Learning/cmake-learning/Introduction/Demo3/math/CMakeFiles/rebuild_cache.dir

@@ -1,21 +1,21 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <config.h>
+#include "config.h"
 
 #ifdef HAVE_POW
   #include <math.h>
 #else
-  #include <MathFunctions.h>
+  #include "math/MathFunctions.h"
 #endif
 
 int main(int argc, char *argv[])
 {
     if (argc < 3){
-        // print version info
-        printf("%s Version %d.%d\n",
-            argv[0],
-            Demo_VERSION_MAJOR,
-            Demo_VERSION_MINOR);
+        // print out the version infor
+        printf("%s version %d.%d\n",
+                argv[0],
+                Demo_VERSION_MAJOR,
+                Demo_VERSION_MINOR);
         printf("Usage: %s base exponent \n", argv[0]);
         return 1;
     }

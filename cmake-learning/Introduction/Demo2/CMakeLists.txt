@@ -4,9 +4,11 @@ cmake_minimum_required (VERSION 2.8)
 # the information of project
 project (Demo2)
 
-# 查找目录下的所有源文件
-# 并将名称保存到 DIR_SRCS 变量
-aux_source_directory(. DIR_SRCS)
+# find out the all the sources in the repository
+# and store the names into the `DIR_SRCS` variables
 
-# 指定生成目标
+# aux_source_directory(<dir> <variables>)
+aux_source_directory(./ DIR_SRCS)
+
+# specify the generated target
 add_executable(Demo ${DIR_SRCS})

@@ -1,0 +1,52 @@
+Determining if the function pow exists failed with the following output:
+Change Dir: /home/hale/Desktop/Linux-Learning/cmake-learning/Introduction/Demo6/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ec039/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ec039.dir/build.make CMakeFiles/cmTC_ec039.dir/build
+gmake[1]: Entering directory '/home/hale/Desktop/Linux-Learning/cmake-learning/Introduction/Demo6/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ec039.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pow -o CMakeFiles/cmTC_ec039.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.24/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘pow’; expected ‘double(double,  double)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.24/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.24/Modules/CheckFunctionExists.c:1:1: note: ‘pow’ is declared in header ‘<math.h>’
+  +++ |+#include <math.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_ec039
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec039.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pow CMakeFiles/cmTC_ec039.dir/CheckFunctionExists.c.o -o cmTC_ec039 
+/usr/bin/ld: CMakeFiles/cmTC_ec039.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `pow'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_ec039.dir/build.make:99: cmTC_ec039] Error 1
+gmake[1]: Leaving directory '/home/hale/Desktop/Linux-Learning/cmake-learning/Introduction/Demo6/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_ec039/fast] Error 2
+
+
+
+Determining if the function pow exists failed with the following output:
+Change Dir: /home/hale/Desktop/Linux-Learning/cmake-learning/Introduction/Demo7/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c21f7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c21f7.dir/build.make CMakeFiles/cmTC_c21f7.dir/build
+gmake[1]: Entering directory '/home/hale/Desktop/Linux-Learning/cmake-learning/Introduction/Demo7/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c21f7.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pow -o CMakeFiles/cmTC_c21f7.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.24/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘pow’; expected ‘double(double,  double)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.24/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.24/Modules/CheckFunctionExists.c:1:1: note: ‘pow’ is declared in header ‘<math.h>’
+  +++ |+#include <math.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_c21f7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c21f7.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pow CMakeFiles/cmTC_c21f7.dir/CheckFunctionExists.c.o -o cmTC_c21f7 
+/usr/bin/ld: CMakeFiles/cmTC_c21f7.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `pow'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_c21f7.dir/build.make:99: cmTC_c21f7] Error 1
+gmake[1]: Leaving directory '/home/hale/Desktop/Linux-Learning/cmake-learning/Introduction/Demo7/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_c21f7/fast] Error 2
+
+
+

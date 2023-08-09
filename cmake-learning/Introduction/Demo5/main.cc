@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <config.h>
+#include "config.h"
 
 #ifdef USE_MYMATH
-  #include <MathFunctions.h>
+  #include "math/MathFunctions.h"
 #else
   #include <math.h>
 #endif
